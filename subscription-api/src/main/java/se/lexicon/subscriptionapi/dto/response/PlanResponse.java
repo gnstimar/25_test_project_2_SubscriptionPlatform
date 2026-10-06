@@ -1,7 +1,6 @@
 package se.lexicon.subscriptionapi.dto.response;
 
 import se.lexicon.subscriptionapi.domain.constant.ServiceType;
-import se.lexicon.subscriptionapi.domain.entity.Operator;
 
 import java.math.BigDecimal;
 
