@@ -2,6 +2,7 @@ package se.lexicon.subscriptionapi.config;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.context.annotation.Profile;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 import se.lexicon.subscriptionapi.domain.constant.Role;
@@ -12,6 +13,7 @@ import java.util.Set;
 
 @Component
 @RequiredArgsConstructor
+@Profile("!test")
 public class DataSeeder implements CommandLineRunner {
 
     private final CustomerRepository customerRepository;
