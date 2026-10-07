@@ -15,5 +15,6 @@ public interface PlanMapper {
 
     @Mapping(source = "operator.id", target = "operatorId")
     @Mapping(source = "operator.name", target = "operatorName")
+    @Mapping(source = "active", target = "isActive")
     PlanResponse toResponse(Plan plan);
 }
