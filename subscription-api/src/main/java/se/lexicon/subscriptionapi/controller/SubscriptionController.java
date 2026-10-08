@@ -13,7 +13,7 @@ import se.lexicon.subscriptionapi.service.SubscriptionService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/vi/subscriptions")
+@RequestMapping("/api/v1/subscriptions")
 @RequiredArgsConstructor
 @Validated
 public class SubscriptionController {
