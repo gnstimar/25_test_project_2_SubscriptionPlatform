@@ -1,3 +1,10 @@
+# Start The Application
+
+Go to SubscriptionApiApplication class and click on Run. (If there are no operators in the database (for example the first time we run the application) it inserts 2 operators, 7 plans and 2 users into the database.)
+Once the app is running, access the Swagger UI at: http://localhost:8080/swagger-ui.html
+
+---
+
 ![Lexicon Logo](https://lexicongruppen.se/media/wi5hphtd/lexicon-logo.svg)
 
 # ProjectTest – Subscription Platform
